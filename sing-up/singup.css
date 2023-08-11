@@ -1,0 +1,58 @@
+.sing-up{
+    position: absolute;
+    content: "";
+    top: 130px;
+    right: 0;
+    left: 250px;
+    bottom: 0;
+    margin: auto;
+}
+.box-singup{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0,0.4);
+    padding: 10px 0px;
+    margin: auto;
+   
+}
+.box-singup img{
+    width: 100%;
+}
+.sing-up #sing-up-form{
+    padding: 20px 10px;
+}
+.check-box{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.show-pass{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#sing-up-form input{
+    margin: 10px 0px;
+}
+#sing-up-form .sing-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#sing-up-btn{
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #0099ff98;
+    text-transform: uppercase;
+}
+.sing-up-login{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.678);
+}
+.sing-up-login a{
+    display: block;
+    margin-top: 5px;
+    color: black;
+}

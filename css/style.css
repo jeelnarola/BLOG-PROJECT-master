@@ -1,0 +1,465 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+outline: none;
+}
+.container{
+max-width: 1140px;
+margin: auto;
+}
+.row{
+display: flex;
+flex-wrap: wrap;
+}
+.justify-content{
+    justify-content: space-between;
+}
+.align-items{
+    align-items: center;
+}
+.flex{
+    display: flex;
+    flex-wrap: nowrap;
+}
+ul,ol{
+list-style: none;
+}
+li{
+text-decoration: none;
+}
+a{
+text-decoration: none;
+}
+p{
+    color: white;
+}
+.w-100{
+    width: 100%;
+    padding: 10px;
+}
+.w-70{
+    width: 70%;
+    padding: 20px;
+}
+.w-25{
+    width: 25%;
+    padding: 0px 10px;
+}
+.w-40{
+    width: 40%;
+    padding: 0px 10px;
+}
+.w-50{
+    width: 50%;
+    padding: 0px 10px;
+}
+
+        /* LOGIN FORM DESIN */
+
+.login-bg{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-__wTl80SAecGwDNgREHRN4v0m3ZBI8IHnQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.overly-login{
+    background-color: rgba(0, 0, 0, 0.395);
+    padding: 321px;
+}
+.box{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-image: url(../img/login-bg.jfif);
+    background-size: 100%;
+    background-position: top center;
+    overflow: hidden;
+}
+.box .box-img{
+    position: relative;
+}
+.box-img svg{
+    position: absolute;
+    contain: "";
+    top: 0px;
+    width: 100%;
+}
+.login{
+    position: absolute;
+    top: 65px;
+    background-color: #0099ff;
+    width: 100%;
+    padding: 20px 40px;
+}
+.login input{
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0,0.2);
+    padding: 8px 25px;
+    width: 100%;
+}
+.login input::placeholder{
+    color: white;
+}
+.login #submit{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: transparent;
+    text-transform: uppercase;
+    box-shadow: inset 0px 0px 0px 4px  rgb(0, 0, 0,0.2);
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.7);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.login .forget{
+    padding: 0px 15px;
+    color: rgba(255, 0, 0, 0.797);
+    font-size: 14px;
+    display: flex;
+    justify-content: end;
+}
+.login .login-content{
+    text-align: center;
+}
+.login .login-content a{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.758);
+    font-weight: 900;
+    text-transform: uppercase;
+    display: block;
+    margin: 5px;
+    margin-bottom: 50px;
+}
+
+.box .title{
+    color: aliceblue;
+    text-align: center;
+    margin: 10px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.box .login-title{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    text-transform: capitalize;
+}
+
+        /* SING-UP FORM CSS DESING */
+
+        .sing-up{
+            position: absolute;
+            content: "";
+            top: 130px;
+            right: 0;
+            left: 250px;
+            bottom: 0;
+            margin: auto;
+        }
+        .box-singup{
+            box-shadow: 0px 0px 10px rgb(0, 0, 0,0.4);
+            padding: 10px 0px;
+            margin: auto;
+           
+        }
+        .box-singup img{
+            width: 100%;
+        }
+        .sing-up #sing-up-form{
+            padding: 20px 10px;
+        }
+        .check-box{
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .show-pass{
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        #sing-up-form input{
+            margin: 10px 0px;
+        }
+        #sing-up-form .sing-title{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        #sing-up-btn{
+            padding: 10px 30px;
+            display: block;
+            margin: auto;
+            border: 1px solid black;
+            border-radius: 10px;
+            margin-top: 10px;
+            background-color: #0099ff98;
+            text-transform: uppercase;
+        }
+        .sing-up-login{
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            text-transform: capitalize;
+            color: rgba(0, 0, 0, 0.678);
+        }
+        .sing-up-login a{
+            display: block;
+            margin-top: 5px;
+            color: black;
+        }
+
+.singup-icon {
+    position: relative;
+}
+.singup-icon i{
+    position: absolute;
+    top: 12px;
+    right: 60px;
+    color: red;
+    font-size: 15px;
+    display: none;
+}
+.singup-icon .fa-check{
+    display: none;
+    color: green;
+}
+
+#popup{
+    width: 300px;
+    padding: 10px 10px;
+    background-color: #ff0000;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-left: 5px solid black;
+    border-radius: 2px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    visibility: hidden;
+    transform: scale(0);
+    z-index: 9999;
+}
+
+.open-login{
+    visibility: visible;
+    transform: scale(1);
+    top: 10%;
+}.password{
+    color: red;
+    padding: 0pc 75px;
+    text-transform: capitalize;
+    font-size: 10px;
+}
+
+    /* BLOG FROM DESING */
+
+#blog{
+    border: 1px solid rgba(255, 255, 255, 0.408);
+    padding: 40px 50px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.431);
+    width: 500px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.594);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+}
+textarea{
+    font-size: 20px;
+}
+#blog input{
+    padding: 5px 10px;
+    margin: 15px;
+    width: 55%;
+}
+#blog label{
+    color: white;
+}
+.content{
+    position: relative;
+}#blog #img{
+    margin-left: 30px;
+}
+#blog #title{
+    margin-left: 45px;
+}
+#blog #category{
+    margin-left: 3px;
+}
+#blog #BLOGS-CONTENT{
+    margin-left: 26px;
+}
+
+.bolg-overly{
+    background-color: rgba(0, 0, 0, 0.201);
+    height: 100%;
+}
+#blog button{
+    display: block;
+    margin: auto;
+    padding: 15px 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #0099ffdc;
+    text-transform: capitalize;
+    font-size: 13px;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    border: none;
+}
+header{
+    padding: 20px 0px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0,0.2);
+}
+header ul{
+    padding: 0px 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+header ul li{
+    padding: 0px 20px;
+}
+header ul li a{
+    color: black;
+}
+.serch{
+    position: relative;
+}
+.serch i{
+    position: absolute;
+    left: 1px;
+    font-size: 20x;
+    top: 0px;
+    padding: 10px;
+    background-color:transparent;
+    border-radius: 10px;
+}
+#serch{
+    padding: 10px 0px;
+    padding-left: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+    font-size: 15px;
+}
+#login-btn{
+    padding:10px 15px;
+    border-radius: 10px;
+    color: aliceblue;
+    text-transform: capitalize;
+    margin: 0px 10px ;
+    background-color: #0099ff;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 40px;
+}
+.log-btn{
+    display: flex;
+    flex-wrap: wrap;
+}
+#sing-up{
+    padding:10px 10px;
+    border-radius: 10px;
+    color: white;
+    text-transform: capitalize;
+    margin: 0px 10px ;
+    background-color: #0099ff;
+    font-size: 15px;
+    text-align: center;
+}
+.blog-icon{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog-header{
+    position: relative;
+}
+.blog-bg{
+    background-image: url(../img/BlogAdd-bg.jpg);
+    height: 100vh;
+}
+
+#card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    text-align: center;
+    margin: 10px;
+} 
+
+#subdiv img{
+    width: 100%;
+    height: 200px;
+    padding: 5px ;
+}
+#card #subdiv{
+    height: 370px;
+    background-color: #0099ffb8;
+    overflow: hidden;
+}
+#subdiv #title{
+    font-size: 25px;
+}
+#subdiv p{
+    padding: 10px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#subdiv button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 15px;
+}
+.home-bg{
+    background-image: url(../img/HOME-BG.htm);
+    height: 90vh;
+    background-size: cover;
+}
+.overly{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.413);
+}
+.home-btn{
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    padding: 10px 30px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.51);
+    border-radius: 20px;
+    background-color: transparent;
+    color: aliceblue;
+    cursor:progress;
+}
+
+
+

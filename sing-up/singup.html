@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SING-UP FORM</title>
+    <style>
+        
+        @import url(../css/all.min.css);
+        @import url(../css/fonts.css);
+        @import url(../css/style.css);
+    </style>
+</head>
+<body>
+    <section class="sing-up">
+        <div class="container">
+            <div class="w-70">
+                    <div class="row">
+                    <div class="box-singup">
+                        <div class="flex">
+                            <div class="w-50">
+                                <img src="../img/Sign up-bro.png" alt="">
+                            </div>
+                            <div class="w-50">
+                                <form id="sing-up-form">
+                                    <h3 class="sing-title">Sing-Up Form </h3>
+                                    <div class="singup-icon">
+                                        <label>First Name : </label>
+                                        <input type="text" id="firstname"><br>
+                                        <i class="fa-solid fa-xmark"></i>
+                                        <i class="fa-solid fa-check"></i>
+                                    </div>
+                                    <div class="singup-icon">
+                                        <label>last Name : </label>
+                                        <input type="text" id="lastname"><br>
+                                        <i class="fa-solid fa-xmark last-x"></i>
+                                        <i class="fa-solid fa-check last"></i>
+                                    </div>
+                                    <div class="singup-icon">
+                                        <label>Email Address : </label>
+                                        <input type="email" id="email"><br>
+                                        <i class="fa-solid fa-xmark"></i>
+                                        <i class="fa-solid fa-check"></i>
+                                    </div>
+                                    <div class="singup-icon">
+                                        <label>Password : </label>
+                                        <input type="password" id="password"><br>
+                                        <p class="password"></p>
+                                        <i class="fa-solid fa-xmark"></i>
+                                        <i class="fa-solid fa-check"></i>
+                                    </div>
+                                    <div class="check-box">
+                                        <input type="checkbox" id="check-box">
+                                        <h6 class="show-pass">Show Password ! </h6>
+                                    </div>
+                                    <button type="submit" id="sing-up-btn">Sing-Up</button>
+                                    <h6 class="sing-up-login">already a member ?  <a href="../login/login.html">log in</a></h6>
+                                </form>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+            <div id="popup">
+                 <h6>Email Is not velid ! ckeck email address</h6>
+            </div>
+        </div>
+    </section>
+    <script src="singup.js"></script>
+</body>
+</html>
